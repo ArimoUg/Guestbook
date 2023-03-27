@@ -1,1 +1,18 @@
 @import url("navigation.css");
+@keyframes background {
+  from {background-color: red;}
+  to {background-color: yellow;}
+	to{background-color: red;}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body{
+	background-color: red;
+  	animation-name: background;
+  	animation-duration: 10s;
+	display: flex;
+	align-content: center; 
+}
